@@ -1,0 +1,47 @@
+#vnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+#vnav li a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 16px;
+
+}
+.H-nav ul li{
+    display: inline;
+    float: left;
+}
+.H-nav{
+    margin-top: 50px;
+}
+#vnav li a:hover{
+    color: white;
+    background-color: gray;
+}
+.active{
+    background-color: green;
+    color: white;
+}
+.H-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.H-nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.H-nav li a:hover:not(.active){
+    background-color: #111;
+    color: white;
+
+}
